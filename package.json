@@ -1,0 +1,23 @@
+{
+  "name": "typescriptindepth",
+  "version": "1.0.0",
+  "description": "from pluralsight course",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "tsc": "tsc"
+  },
+  "author": "David Hulmes",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash": "^4.14.101",
+    "gulp": "^3.9.1",
+    "gulp-shell": "^0.6.5",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-typescript": "^4.0.0-alpha.2",
+    "typescript": "^2.7.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.5"
+  }
+}
